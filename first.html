@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name=>
+
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        body {
+            font-size: 16px;
+        }
+
+        .one {
+            border: 1px solid #eee;
+            width: 230px;
+            height: 50px;
+            background: #ccc;
+            color: red;
+        }
+
+        .two {
+            border: 1px solid #ccc;
+            width: 230px;
+            height: 50px;
+            background: #9CF;
+            color: blue;
+        }
+    </style>
+
+    <script type="text/javascript" src="js/first.js"></script>
+
+
+</head>
+<body>
+
+<h2>JavaScript 隐藏和显示</h2>
+<p id="pp">javascriptjavascriptjavascriptjavascriptjavascriptjavascriptjavascriptjavascript</p>
+<form>
+    <input id="show" type="button" value="点击显示body" onclick="showBody()">
+    <input id="hide" type="button" value="点击隐藏" onclick="hideBody()">
+</form>
+
+<p id="p1"> JavaScript使网页显示动态效果并实现与用户交互功能。</p>
+<input type="button" onclick="add2P1()" value="添加样式">
+<p id="p2" class="one">JavaScript使网页显示动态效果并实现与用户交互功能。</p>
+<input type="button" onclick="modify()" value="修改样式">
+<br>
+<div id="txt">
+    <h5>JavaScript为网页添加动态效果并实现与用户交互的功能。</h5>
+    <p>1. JavaScript入门篇，让不懂JS的你，快速了解JS。</p>
+    <p>2. JavaScript进阶篇，让你掌握JS的基础语法、函数、数组、事件、内置对象、BOM浏览器、DOM操作。</p>
+    <p>3. 学完以上两门基础课后，在深入学习JavaScript的变量作用域、事件、对象、运动、cookie、正则表达式、ajax等课程。</p>
+</div>
+<form>
+    <input type="button" value="点击改变颜色" onclick="changeColor()">
+    <input type="button" value="点击改变大小高度" onclick="changeWHeight()">
+
+</form>
+
+</body>
+</html>
